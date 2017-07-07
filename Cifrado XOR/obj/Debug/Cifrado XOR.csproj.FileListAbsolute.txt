@@ -1,0 +1,20 @@
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\bin\Debug\Cifrado XOR.exe.config
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\bin\Debug\Cifrado XOR.exe
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\bin\Debug\Cifrado XOR.pdb
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado XOR.csprojResolveAssemblyReference.cache
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado_XOR.main.resources
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado_XOR.Properties.Resources.resources
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado XOR.csproj.GenerateResource.Cache
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado XOR.exe
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado XOR.pdb
+c:\users\dalmiro.farinello-pc\documents\visual studio 2012\Projects\Cifrado XOR\Cifrado XOR\obj\Debug\Cifrado_XOR.preferences.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\bin\Debug\Cifrado XOR.exe.config
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado XOR.exe
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado XOR.pdb
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\bin\Debug\Cifrado XOR.exe
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\bin\Debug\Cifrado XOR.pdb
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado XOR.csprojResolveAssemblyReference.cache
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado_XOR.main.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado_XOR.preferences.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado_XOR.Properties.Resources.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Debug\Cifrado XOR.csproj.GenerateResource.Cache

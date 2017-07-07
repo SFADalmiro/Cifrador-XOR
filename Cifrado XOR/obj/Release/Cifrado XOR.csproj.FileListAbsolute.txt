@@ -1,0 +1,19 @@
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\bin\Release\Cifrado XOR.exe.config
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\bin\Release\Cifrado XOR.exe
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\bin\Release\Cifrado XOR.pdb
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado_XOR.main.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado_XOR.preferences.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado_XOR.Properties.Resources.resources
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.csproj.GenerateResource.Cache
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.exe
+C:\Users\dalmi\Documents\GitHub\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.pdb
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\bin\Release\Cifrado XOR.exe.config
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.exe
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.pdb
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\bin\Release\Cifrado XOR.exe
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\bin\Release\Cifrado XOR.pdb
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.csprojResolveAssemblyReference.cache
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado_XOR.main.resources
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado_XOR.preferences.resources
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado_XOR.Properties.Resources.resources
+C:\Users\dalmi\Documents\Visual Studio 2012\Projects\Cifrador-XOR\Cifrado XOR\obj\Release\Cifrado XOR.csproj.GenerateResource.Cache
