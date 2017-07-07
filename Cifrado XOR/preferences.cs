@@ -46,10 +46,10 @@ namespace Cifrado_XOR
 
         private void saveConfig_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.Cipher_Mode = modeC;
+            Properties.Settings.Default.Cipher_Mode = modeC; // seteamos configuracion
             Properties.Settings.Default.LenghtBlock = bitBlock;
-            Properties.Settings.Default.Save();
-            Application.Restart();
+            Properties.Settings.Default.Save(); // guardamos
+            Application.Restart(); // reiniciamos aplicacion
         }
     }
 }

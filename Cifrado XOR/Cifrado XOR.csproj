@@ -61,7 +61,6 @@
   <ItemGroup>
     <Compile Include="Blocks.cs" />
     <Compile Include="CipherBlock.cs" />
-    <Compile Include="Config.cs" />
     <Compile Include="DecipherBlock.cs" />
     <Compile Include="preferences.cs">
       <SubType>Form</SubType>

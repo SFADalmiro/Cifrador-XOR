@@ -189,6 +189,7 @@
             this.generateKey.TabIndex = 7;
             this.generateKey.Text = "Generar Clave";
             this.generateKey.UseVisualStyleBackColor = true;
+            this.generateKey.Click += new System.EventHandler(this.generateKey_Click);
             // 
             // labelMod
             // 
