@@ -44,7 +44,6 @@
             this.CipherBtn = new System.Windows.Forms.Button();
             this.DecipherBtn = new System.Windows.Forms.Button();
             this.generateKey = new System.Windows.Forms.Button();
-            this.labelMod = new System.Windows.Forms.Label();
             this.labelBlock = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -191,21 +190,11 @@
             this.generateKey.UseVisualStyleBackColor = true;
             this.generateKey.Click += new System.EventHandler(this.generateKey_Click);
             // 
-            // labelMod
-            // 
-            this.labelMod.AutoSize = true;
-            this.labelMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMod.Location = new System.Drawing.Point(174, 385);
-            this.labelMod.Name = "labelMod";
-            this.labelMod.Size = new System.Drawing.Size(64, 24);
-            this.labelMod.TabIndex = 8;
-            this.labelMod.Text = "Modo:";
-            // 
             // labelBlock
             // 
             this.labelBlock.AutoSize = true;
             this.labelBlock.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBlock.Location = new System.Drawing.Point(174, 409);
+            this.labelBlock.Location = new System.Drawing.Point(174, 393);
             this.labelBlock.Name = "labelBlock";
             this.labelBlock.Size = new System.Drawing.Size(149, 24);
             this.labelBlock.TabIndex = 9;
@@ -217,7 +206,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 442);
             this.Controls.Add(this.labelBlock);
-            this.Controls.Add(this.labelMod);
             this.Controls.Add(this.generateKey);
             this.Controls.Add(this.DecipherBtn);
             this.Controls.Add(this.CipherBtn);
@@ -260,7 +248,6 @@
         private System.Windows.Forms.Button DecipherBtn;
         private System.Windows.Forms.TextBox resultBoxTxt;
         private System.Windows.Forms.Button generateKey;
-        private System.Windows.Forms.Label labelMod;
         private System.Windows.Forms.Label labelBlock;
     }
 }

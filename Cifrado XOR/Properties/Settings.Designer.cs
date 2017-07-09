@@ -34,17 +34,5 @@ namespace Cifrado_XOR.Properties {
                 this["LenghtBlock"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("S")]
-        public char Cipher_Mode {
-            get {
-                return ((char)(this["Cipher_Mode"]));
-            }
-            set {
-                this["Cipher_Mode"] = value;
-            }
-        }
     }
 }

@@ -16,13 +16,11 @@ namespace Cifrado_XOR
         DecipherBlock dp; // y para decifrar
         Random rn; // clase de generacion aleatoria, para generar claves aleatorias
         int lenghtBl = Cifrado_XOR.Properties.Settings.Default.LenghtBlock; /* obtenemos la configuracion de usuario *ver preferences.cs*/
-        char modeCi = Cifrado_XOR.Properties.Settings.Default.Cipher_Mode; /**/
         string textC, textD, key; // creamos variables para almacenar texto cifrado, decifrado y la clave
         public main()
         {
             InitializeComponent();
             labelBlock.Text = String.Format("Tamaño de bloque: {0}", lenghtBl); //labels para saber el tamaño de bloques
-            labelMod.Text = String.Format("Modo: {0}", (modeCi == 'S')? "Simple": "Doble"); //usamos el una expresion ? para escribir "Simple" o "Doble" 
         }
 
         private void preferenceMenu_Click(object sender, EventArgs e)
@@ -48,7 +46,7 @@ namespace Cifrado_XOR
         {
             textC = entryBoxTxt.Text;                           /*llenamos las variables con los datos de la caja de texto,*/
             key = keyBoxTxt.Text;                                
-            cp = new CipherBlock(lenghtBl, modeCi, textC, key); /*e instanciamos la clase inicializando el constructor con los valores descritos antes*/
+            cp = new CipherBlock(lenghtBl, textC, key); /*e instanciamos la clase inicializando el constructor con los valores descritos antes*/
             resultBoxTxt.Text = cp.Cipher(); // se llama al metodo cipher encargado de cifrar *ver CipherBlock.cs*
         }
 
@@ -56,7 +54,7 @@ namespace Cifrado_XOR
         {
             textD = entryBoxTxt.Text;
             key = keyBoxTxt.Text;
-            dp = new DecipherBlock(lenghtBl, modeCi, textD, key);// igual que en el metodo Cipher pero esta vez usamos el objeto DecipherBlock *ver DecipherBlock.cs* */
+            dp = new DecipherBlock(lenghtBl, textD, key);// igual que en el metodo Cipher pero esta vez usamos el objeto DecipherBlock *ver DecipherBlock.cs* */
             resultBoxTxt.Text = dp.Decipher();
         }
 

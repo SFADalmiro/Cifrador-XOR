@@ -10,13 +10,11 @@ namespace Cifrado_XOR
     {
         Blocks B; // creamos el objeto para separar en bloques *ver Blocks.cs*
         private int block; // bloque
-        private char mode; // modo de cifrado (en desuso por el momento)
         private string Text; //texto en claro   
         private string Key; // clave de cifrado 
         private string codeText; // texto de salida
-        public CipherBlock(int BlockMode, char ModeCipher, string text, string key) {
+        public CipherBlock(int BlockMode,  string text, string key) {
             block = BlockMode;
-            mode = ModeCipher;
             Text = text;
             Key = key;
             B = new Blocks(BlockMode, text); /* inicializamos los valores del constructor e instanciamos, 

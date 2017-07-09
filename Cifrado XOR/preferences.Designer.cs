@@ -32,13 +32,8 @@
             this.Val256bits = new System.Windows.Forms.RadioButton();
             this.Val128bits = new System.Windows.Forms.RadioButton();
             this.Val192bits = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ModXor2 = new System.Windows.Forms.RadioButton();
-            this.ModXor = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.saveConfig = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -89,53 +84,9 @@
             this.Val192bits.UseVisualStyleBackColor = true;
             this.Val192bits.CheckedChanged += new System.EventHandler(this.Val192bits_CheckedChanged);
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.ModXor2);
-            this.groupBox2.Controls.Add(this.ModXor);
-            this.groupBox2.Location = new System.Drawing.Point(12, 118);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 60);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Modo de cifrado";
-            // 
-            // ModXor2
-            // 
-            this.ModXor2.AutoSize = true;
-            this.ModXor2.Location = new System.Drawing.Point(6, 42);
-            this.ModXor2.Name = "ModXor2";
-            this.ModXor2.Size = new System.Drawing.Size(85, 17);
-            this.ModXor2.TabIndex = 1;
-            this.ModXor2.TabStop = true;
-            this.ModXor2.Text = "Double XOR";
-            this.ModXor2.UseVisualStyleBackColor = true;
-            this.ModXor2.CheckedChanged += new System.EventHandler(this.ModXor2_CheckedChanged);
-            // 
-            // ModXor
-            // 
-            this.ModXor.AutoSize = true;
-            this.ModXor.Location = new System.Drawing.Point(6, 19);
-            this.ModXor.Name = "ModXor";
-            this.ModXor.Size = new System.Drawing.Size(48, 17);
-            this.ModXor.TabIndex = 0;
-            this.ModXor.TabStop = true;
-            this.ModXor.Text = "XOR";
-            this.ModXor.UseVisualStyleBackColor = true;
-            this.ModXor.CheckedChanged += new System.EventHandler(this.ModXor_CheckedChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 181);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(224, 26);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "*el double XOR realiza dos rondas de cifrado, \r\nmientras que el XOR solo una.\r\n";
-            // 
             // saveConfig
             // 
-            this.saveConfig.Location = new System.Drawing.Point(158, 227);
+            this.saveConfig.Location = new System.Drawing.Point(154, 118);
             this.saveConfig.Name = "saveConfig";
             this.saveConfig.Size = new System.Drawing.Size(75, 23);
             this.saveConfig.TabIndex = 3;
@@ -147,19 +98,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(241, 262);
+            this.ClientSize = new System.Drawing.Size(241, 149);
             this.Controls.Add(this.saveConfig);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "preferences";
             this.Text = "Preferencias";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -169,10 +115,6 @@
         private System.Windows.Forms.RadioButton Val256bits;
         private System.Windows.Forms.RadioButton Val128bits;
         private System.Windows.Forms.RadioButton Val192bits;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton ModXor2;
-        private System.Windows.Forms.RadioButton ModXor;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button saveConfig;
     }
 }
