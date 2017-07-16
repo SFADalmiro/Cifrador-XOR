@@ -118,6 +118,7 @@
             // entryBoxTxt
             // 
             this.entryBoxTxt.Location = new System.Drawing.Point(6, 19);
+            this.entryBoxTxt.MaxLength = 16777216;
             this.entryBoxTxt.Multiline = true;
             this.entryBoxTxt.Name = "entryBoxTxt";
             this.entryBoxTxt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
