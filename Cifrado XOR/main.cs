@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Cifrado_XOR
@@ -80,6 +81,28 @@ namespace Cifrado_XOR
                 key += rn.Next(0, 9);                //  que es proporcional a la cantidad de caracteres de la clave
             }
             keyBoxTxt.Text = key;
+        }
+
+        private void saveResult_Click(object sender, EventArgs e)
+        {
+            string textSave = resultBoxTxt.Text, key_save = keyBoxTxt.Text,
+                    saveTxt = String.Concat(textSave, String.Concat("\n\rClave: ", key_save));
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Title = "Guardar resultado";
+            sfd.Filter = "Guardar archivos (.txt) |*.txt";
+            sfd.DefaultExt = "txt";
+            sfd.AddExtension = true;
+            sfd.InitialDirectory = @"C:/";
+            if (sfd.ShowDialog() == DialogResult.OK) {
+                string path = sfd.FileName;
+                using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write)){
+                    using(StreamWriter sw = new StreamWriter(fs)){
+                        sw.Write(saveTxt);
+                        sw.Close();
+                        fs.Close();
+                    }
+                }
+            }
         }
     }
 }

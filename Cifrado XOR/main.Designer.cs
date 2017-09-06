@@ -74,19 +74,20 @@
             // saveResult
             // 
             this.saveResult.Name = "saveResult";
-            this.saveResult.Size = new System.Drawing.Size(142, 22);
+            this.saveResult.Size = new System.Drawing.Size(152, 22);
             this.saveResult.Text = "Guardar";
+            this.saveResult.Click += new System.EventHandler(this.saveResult_Click);
             // 
             // openFile
             // 
             this.openFile.Name = "openFile";
-            this.openFile.Size = new System.Drawing.Size(142, 22);
+            this.openFile.Size = new System.Drawing.Size(152, 22);
             this.openFile.Text = "Abrir archivo";
             // 
             // exitApp
             // 
             this.exitApp.Name = "exitApp";
-            this.exitApp.Size = new System.Drawing.Size(142, 22);
+            this.exitApp.Size = new System.Drawing.Size(152, 22);
             this.exitApp.Text = "Salir";
             this.exitApp.Click += new System.EventHandler(this.exitApp_Click);
             // 
@@ -101,7 +102,7 @@
             // preferenceMenu
             // 
             this.preferenceMenu.Name = "preferenceMenu";
-            this.preferenceMenu.Size = new System.Drawing.Size(138, 22);
+            this.preferenceMenu.Size = new System.Drawing.Size(152, 22);
             this.preferenceMenu.Text = "Preferencias";
             this.preferenceMenu.Click += new System.EventHandler(this.preferenceMenu_Click);
             // 
